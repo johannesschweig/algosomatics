@@ -1,0 +1,20 @@
+body{
+
+}
+
+h1, h2, h3{
+    padding: 20px 0 20px 0;
+    text-align: center;
+}
+
+.container-fluid{
+    padding-top: 70px;
+}
+
+#loading-animation{
+    padding-top: 30px;
+}
+
+#heart-logo{
+    padding-bottom: 30px;
+}
