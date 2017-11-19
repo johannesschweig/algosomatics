@@ -1,6 +1,16 @@
 <!DOCTYPE html>
 <div>
-    <h3>Question4</h3>
-    <p>question...<p>
-    <button type="button" class="btn btn-outline-primary col-4 offset-4" onclick="changeScreen('question5')">Submit</button>
+    <h3>Please provide the location of your symptoms</h3>
+
+    <div class="col-6 offset-3 btn-group-vertical" data-toggle="buttons">
+      <label class="btn btn-outline-secondary">
+        <input type="radio" name="options" id="41" autocomplete="off" onchange="clickRadio('41')"> My head - physically or psychologically
+      </label>
+      <label class="btn btn-outline-secondary">
+        <input type="radio" name="options" id="42" autocomplete="off" onchange="clickRadio('42')"> Somewhere in or near my gut
+      </label>
+      <label class="btn btn-outline-secondary">
+        <input type="radio" name="options" id="43" autocomplete="off" onchange="clickRadio('43')"> Arms or legs
+      </label>
+    </div>
 </div>

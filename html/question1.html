@@ -1,6 +1,16 @@
 <!DOCTYPE html>
 <div>
-    <h3>Question1</h3>
-    <p>question...<p>
-    <button type="button" class="btn btn-outline-primary col-4 offset-4" onclick="changeScreen('question2')">Submit</button>
+    <h3>Why are you here?</h3>
+
+    <div class="col-6 offset-3 btn-group-vertical" data-toggle="buttons">
+      <label class="btn btn-outline-secondary">
+        <input type="radio" name="options" id="11" autocomplete="off" onchange="clickRadio('11')"> I think I may have something
+      </label>
+      <label class="btn btn-outline-secondary">
+        <input type="radio" name="options" id="12" autocomplete="off" onchange="clickRadio('12')"> I am pretty sure something is wrong
+      </label>
+      <label class="btn btn-outline-secondary">
+        <input type="radio" name="options" id="13" autocomplete="off" onchange="clickRadio('13')"> It hurts really bad, help!
+      </label>
+    </div>
 </div>
