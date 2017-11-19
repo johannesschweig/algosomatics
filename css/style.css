@@ -2,6 +2,18 @@ body{
 
 }
 
+h1{
+    font-size: 60px;
+}
+h2{
+
+}
+h3{
+    font-size: 42px;
+}
+p{
+    font-size: 24px;
+}
 h1, h2, h3{
     padding: 20px 0 20px 0;
     text-align: center;
@@ -35,11 +47,11 @@ h1, h2, h3{
     padding-top: 30px;
 }
 #refresh-img{
-    width: 24px;
-    height: 24px;
-    margin: -4px 0 0 -4px;
+    width: 40px;
+    height: 40px;
+    margin: -2px 0 0 -2px;
 }
 #refresh-btn{
-    width: 38px;
-    height: 38px;
+    width: 60px;
+    height: 60px;
 }
