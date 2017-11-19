@@ -8,7 +8,7 @@ h1, h2, h3{
 }
 
 .container-fluid{
-    padding-top: 70px;
+    padding-top: 30px;
 }
 
 #loading-animation{
@@ -21,4 +21,16 @@ h1, h2, h3{
 
 #result-img{
     height: 100%;
+}
+
+#ads-container{
+    padding-top: 60px;
+    display: none;
+}
+#ads-container img{
+    cursor: pointer;
+    opacity: .7;
+}
+#help-btn{
+    padding-top: 30px;
 }
